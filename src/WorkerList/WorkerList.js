@@ -27,7 +27,7 @@ export default function WorkerList() {
             salary: salaryInput
         }
 
-        setWorkers(workers.push(worker))
+        setWorkers([...workers, worker])
         console.log(workers);
 
         
